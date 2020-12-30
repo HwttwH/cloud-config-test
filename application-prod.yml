@@ -1,0 +1,13 @@
+server:
+  port: 8088
+spring:
+  profiles:
+    active: prod
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://code.aliyun.com/_hwtCloud/configtest.git
+          username: 韩某人云
+          password: 123456789zy0
+          default-label: master
