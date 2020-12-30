@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/HwttwH/cloud-config-test.git
+          uri: https://github.com/HwttwH/cloud-config-test
           username: 2415949506@qq.com
           password: 123456789zy0
           default-label: master
